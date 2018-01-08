@@ -24,7 +24,7 @@ export class MyApp {
         splashScreen.hide();
 
         fcm.getToken().then(token => {
-            alert(token);
+             //alert(token);
             //this.getDeviceToken(20, token,'Y');
            //this.serviceprovider.deviceTokenSave("0B9275138EE7ECA1202E2AB24384F854",token,'','Y')
         })
